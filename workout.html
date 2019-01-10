@@ -1,0 +1,14 @@
+<script>
+
+	
+var t1 = 0, t2 = 1, nextTerm = 0;
+    console.log(t1); // print 0 as it is
+    console.log(t2); // print 1 as it is
+    for (var i = 0; i <= 100; i++) {
+        nextTerm = t1 + t2;
+        t1 = t2;
+        t2 = nextTerm;
+        console.log(nextTerm);
+    }
+
+</script>
